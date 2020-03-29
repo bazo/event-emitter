@@ -10,7 +10,8 @@
 		"typescript": "^3.8.3"
 	},
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"prepare": "yarn build"
 	},
 	"files": [
 		"lib/**/*"
