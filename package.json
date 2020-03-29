@@ -1,7 +1,7 @@
 {
 	"name": "@bazo/event-emitter",
 	"private": false,
-	"version": "0.0.1",
+	"version": "0.0.4",
 	"main": "lib/eventEmitter.js",
 	"license": "MIT",
 	"description": "Event emitter for browser",
@@ -12,7 +12,7 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"prepare": "yarn build",
+		"prepublish": "yarn build",
 		"pub": "yarn publish --access public"
 	},
 	"files": [
