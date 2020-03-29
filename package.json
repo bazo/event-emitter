@@ -1,8 +1,9 @@
 {
 	"name": "@bazo/event-emitter",
 	"private": false,
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main": "lib/eventEmitter.js",
+	"types": "lib/eventEmitter.d.ts",
 	"license": "MIT",
 	"description": "Event emitter for browser",
 	"repository": "git@github.com:bazo/event-emitter.git",
